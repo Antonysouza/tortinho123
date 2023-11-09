@@ -14,7 +14,18 @@ function tocasomplantao(){
 }
 document.querySelector('.tecla_plantao').onclick=tocasomplantao;
 
-function tocasomshow(){
-    document.querySelector('#som_tecla_show').play();
+function tocasombarbie(){
+    document.querySelector('#som_tecla_barbie').play();
 }
-document.querySelector('.tecla_show').onclick=tocasomshow;
+document.querySelector('.tecla_barbie').onclick=tocabarbie;
+
+function tocasombatman(){
+    document.querySelector('#som_tecla_batman').play();
+}
+document.querySelector('.tecla_batman').onclick=tocasombatman;
+
+function tocasombeligol() {
+    document.querySelector('#som_tecla_beligol').play();
+}
+document.querySelector('.tecla_beligol').onclick = tocasombeligol;
+
